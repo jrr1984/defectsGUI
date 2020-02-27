@@ -79,22 +79,12 @@ class System(threading.Thread):
                 if i != self.step:
                     i = self.step
                     yield self.intensity
+
         ring = my_call()
         inten = list(ring)
         with open('inten.dat', 'w', newline='') as f:
             writer = csv.writer(f)
             writer.writerows(inten)
-
-    # def live_plot_thread(self,thread):
-    #     while thread.is_alive():
-    #                 log.debug('trying to plot')
-    #                 log.debug(len(self.inten_live_plot))
-    #                 print(self.inten_live_plot[self.step])
-    #                 plt.plot(wavel_array, self.inten_live_plot[i])
-                    # plt.xlabel('Longitud de onda [nm]', fontsize=15)
-                    # plt.ylabel('Intensidad [a.u.]', fontsize=15)
-                    # plt.grid()
-                    # plt.show()
 
 
 
