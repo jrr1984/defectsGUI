@@ -1,5 +1,8 @@
 import numpy as np
+import cv2
 
+from PyQt5 import QtGui
+from PyQt5.QtGui import QPixmap, QImage
 from PyQt5.QtCore import Qt, QThread, QTimer
 from PyQt5.QtWidgets import QMainWindow, QWidget, QPushButton, QVBoxLayout, QApplication, QSlider
 from pyqtgraph import ImageView
@@ -33,10 +36,10 @@ class StartWindow(QMainWindow):
 
     def update_image(self):
         frame = self.camera.get_frame()
-        self.image_view.setImage(frame.T)
+        self.image_view.setImage(frame,autoHistogramRange=True)
 
     def update_movie(self):
-        self.image_view.setImage(self.camera.last_frame.T)
+        self.image_view.setImage(self.camera.last_frame)
 
     def update_brightness(self, value):
         value /= 10
@@ -55,7 +58,7 @@ class MovieThread(QThread):
 
     def run(self):
         while True:
-            self.camera.acquire_movie(1)
+            self.camera.acquire_movie(10)
 
 if __name__ == '__main__':
     app = QApplication([])

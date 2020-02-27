@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97147e8b-e592-4f02-8573-151555f68739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/defectsGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aquilesexample/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aquilesexample/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aquilesexample/start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aquilesexample/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anothermain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zeolearn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XZStageAndSpec.py" beforeDir="false" afterPath="$PROJECT_DIR$/XZStageAndSpec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aquilesexample/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aquilesexample/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aquilesexample/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aquilesexample/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aquilesexample/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="85">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -41,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aquilesexample/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="132">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -53,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aquilesexample/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="902">
+              <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -74,9 +61,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>color</find>
-      <find>image</find>
       <find>image_v</find>
       <find>7px</find>
+      <find>moviethread</find>
+      <find>last_frame</find>
+      <find>last</find>
+      <find>setobj</find>
+      <find>image</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,9 +90,9 @@
         <option value="$PROJECT_DIR$/zeolearn.py" />
         <option value="$PROJECT_DIR$/camera.py" />
         <option value="$PROJECT_DIR$/starts.py" />
-        <option value="$PROJECT_DIR$/Aquilesexample/models.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/start.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/__init__.py" />
+        <option value="$PROJECT_DIR$/Aquilesexample/models.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/views.py" />
       </list>
     </option>
@@ -295,7 +286,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18189038" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.023828436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -432,23 +423,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Aquilesexample/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Aquilesexample/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aquilesexample/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aquilesexample/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="132">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -457,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aquilesexample/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="902">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
