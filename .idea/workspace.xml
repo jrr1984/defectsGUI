@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97147e8b-e592-4f02-8573-151555f68739" name="Default Changelist" comment="winter is coming">
-      <change beforePath="$PROJECT_DIR$/.idea/defectsGUI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aquilesexample/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aquilesexample/lextab.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aquilesexample/logo_lec.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aquilesexample/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aquilesexample/start.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aquilesexample/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aquilesexample/wavel_df.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aquilesexample/yacctab.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XZStage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XZStageAndSpec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anothermain.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciexyz.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colormodels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ino_main/header.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ino_main/ino_main.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inten.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lextab.py" beforeDir="false" afterPath="$PROJECT_DIR$/lextab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainGUI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/publisher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscribers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trrail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zeolearn.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="73">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -69,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2955">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="22">
+              <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -92,7 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fps</find>
       <find>update_</find>
       <find>update_spe</find>
       <find>spectra_upda</find>
@@ -122,6 +88,7 @@
       <find>start l</find>
       <find>button_live</find>
       <find>start_live</find>
+      <find>range</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/mainGUI.py" />
         <option value="$PROJECT_DIR$/trials.py" />
         <option value="$PROJECT_DIR$/listener.py" />
@@ -150,6 +116,8 @@
         <option value="$PROJECT_DIR$/Spectrometer.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/views.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/start.py" />
+        <option value="$PROJECT_DIR$/start.py" />
+        <option value="$PROJECT_DIR$/views.py" />
       </list>
     </option>
   </component>
@@ -344,19 +312,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2660842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7925532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7925532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -425,16 +394,6 @@
     <entry file="file://$PROJECT_DIR$/Aquilesexample/models.py" />
     <entry file="file://$PROJECT_DIR$/Aquilesexample/views.py" />
     <entry file="file://$PROJECT_DIR$/Aquilesexample/start.py" />
-    <entry file="file://$PROJECT_DIR$/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2955">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yacctab.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-418">
@@ -464,10 +423,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="73">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
