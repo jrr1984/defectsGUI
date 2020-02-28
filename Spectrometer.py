@@ -5,10 +5,8 @@ class Spectrometer(threading.Thread):
 
     def __init__(self):
         threading.Thread.__init__(self)
-        self.intensity = []
-        self.wavelength = []
-        self.step = 0
-        self.stop_program = False
+        self.last_intensity = []
+        self.stopped = False
 
     def connect(self):
         paramsets = list_instruments()
@@ -18,9 +16,12 @@ class Spectrometer(threading.Thread):
     def disconnect(self):
         self.ccs.close()
 
+    def stop(self):
+        self.stopped = True
+
     def measure_spectra(self,num_avg,integ_time):
-        self.intensity, self.wavelength = self.ccs.take_data(integration_time=integ_time, num_avg=num_avg, use_background=False)
-        return self.intensity
+        self.last_intensity, self.wavelength = self.ccs.take_data(integration_time=integ_time, num_avg=num_avg, use_background=False)
+        return self.last_intensity
 
     def acquire_spectra(self,num_spectra,num_avg,integ_time):
         spectra = []
