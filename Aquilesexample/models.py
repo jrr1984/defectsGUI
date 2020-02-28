@@ -8,6 +8,7 @@ class Camera:
         self.cam_num = cam_num
         self.cap = None
         self.last_frame = np.zeros((1,1))
+        self.stopped = False
 
     def initialize(self):
         self.cap = cv2.VideoCapture(self.cam_num)
@@ -23,6 +24,9 @@ class Camera:
         for _ in range(num_frames):
             movie.append(self.get_frame())
         return movie
+
+    def stop(self):
+        self.stopped = True
 
     def set_brightness(self, value):
         self.cap.set(cv2.CAP_PROP_BRIGHTNESS, value)

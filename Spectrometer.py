@@ -22,8 +22,14 @@ class Spectrometer(threading.Thread):
         self.intensity, self.wavelength = self.ccs.take_data(integration_time=integ_time, num_avg=num_avg, use_background=False)
         return self.intensity
 
-    def acquire_spectra(self,num_spectra):
+    def acquire_spectra(self,num_spectra,num_avg,integ_time):
         spectra = []
         for _ in range(num_spectra):
-            spectra.append(self.measure_spectra(2,100))
+            spectra.append(self.measure_spectra(num_avg,integ_time))
         return spectra
+
+if __name__ == '__main__':
+    spec = Spectrometer()
+    spec.connect()
+    print(spec.measure_spectra(2,'100ms'))
+    spec.disconnect()
