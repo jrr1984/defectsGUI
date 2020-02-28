@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97147e8b-e592-4f02-8573-151555f68739" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/trrail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aquilesexample/lextab.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aquilesexample/lextab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aquilesexample/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aquilesexample/start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aquilesexample/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aquilesexample/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spectrometer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spectrometer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lextab.py" beforeDir="false" afterPath="$PROJECT_DIR$/lextab.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aquilesexample/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="235">
               <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -28,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aquilesexample/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="220">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -40,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aquilesexample/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="93" column="67" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
+            <state relative-caret-position="249">
+              <caret line="153" column="58" lean-forward="true" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -52,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spectrometer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="594">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -72,14 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>update_timer``</find>
-      <find>timer</find>
-      <find>acquire_spe</find>
-      <find>spectra_update_timer</find>
-      <find>self.x</find>
-      <find>wavel_df</find>
-      <find>setda</find>
-      <find>setdata</find>
       <find>fps</find>
       <find>update_</find>
       <find>update_spe</find>
@@ -102,6 +99,14 @@
       <find>update_image</find>
       <find>update_movie</find>
       <find>update_spectra</find>
+      <find>update_single</find>
+      <find>butt</find>
+      <find>spectra_view</find>
+      <find>update_live</find>
+      <find>setdata</find>
+      <find>start l</find>
+      <find>button_live</find>
+      <find>start_live</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,15 +130,16 @@
         <option value="$PROJECT_DIR$/camera.py" />
         <option value="$PROJECT_DIR$/starts.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/__init__.py" />
-        <option value="$PROJECT_DIR$/Aquilesexample/start.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/models.py" />
+        <option value="$PROJECT_DIR$/trrail.py" />
+        <option value="$PROJECT_DIR$/Aquilesexample/start.py" />
         <option value="$PROJECT_DIR$/Spectrometer.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
+    <option name="x" value="948" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -260,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zeolearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="trrail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="defectsGUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,7 +278,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zeolearn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trrail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,9 +291,9 @@
       <list>
         <item itemvalue="Python.start" />
         <item itemvalue="Python.Spectrometer" />
+        <item itemvalue="Python.trrail" />
         <item itemvalue="Python.models" />
         <item itemvalue="Python.camera" />
-        <item itemvalue="Python.zeolearn" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +319,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.023828436" />
@@ -475,10 +481,20 @@
     <entry file="file://$PROJECT_DIR$/Aquilesexample/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/trrail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Aquilesexample/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="220">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -487,7 +503,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aquilesexample/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="235">
           <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -497,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spectrometer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="594">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
@@ -507,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aquilesexample/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="93" column="67" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
+        <state relative-caret-position="249">
+          <caret line="153" column="58" lean-forward="true" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>

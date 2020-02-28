@@ -1,5 +1,9 @@
 from instrumental import instrument, list_instruments
 import threading,time
+import matplotlib.pyplot as plt
+import pandas as pd
+wavel_df = pd.read_pickle("wavel_df.pkl")
+wavel_array = wavel_df.iloc[:, 0].values
 
 class Spectrometer(threading.Thread):
 
@@ -32,5 +36,6 @@ class Spectrometer(threading.Thread):
 if __name__ == '__main__':
     spec = Spectrometer()
     spec.connect()
-    print(spec.measure_spectra(2,'100ms'))
+    plt.plot(wavel_array,spec.measure_spectra(2,'100ms'),'*')
+    plt.show()
     spec.disconnect()

@@ -9,15 +9,14 @@ import time
 
 camera = Camera(0)
 camera.initialize()
-time.sleep(0.5)
 
-# spectrometer = Spectrometer()
-# spectrometer.connect()
-# time.sleep(0.5)
+spectrometer = Spectrometer()
+spectrometer.connect()
 
 app = QApplication([])
-# start_window = StartWindow(camera,spectrometer)
-start_window = StartWindow(camera)
+start_window = StartWindow(camera,spectrometer)
+# start_window = StartWindow(camera)
 start_window.show()
 app.exit(app.exec_())
-# spectrometer.disconnect()
+spectrometer.disconnect()
+camera.close_camera()

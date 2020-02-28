@@ -30,6 +30,7 @@ class StartWindow(QMainWindow):
 
         self.central_widget = QWidget()
         self.button_frame = QPushButton('Acquire Frame', self.central_widget)
+        self.button_frame.resize(5000,5000)
         self.button_movie = QPushButton('Start Live View', self.central_widget)
         # self.button_stop_movie = QPushButton('Stop Live View', self.central_widget)
         self.button_single_spectra = QPushButton('Acquire Single Spectra', self.central_widget)
@@ -74,6 +75,7 @@ class StartWindow(QMainWindow):
         self.counter = 0
         self.fps = 0.
         self.lastupdate = time.time()
+        self.lastupdate = time.time()
 
         QtGui.QApplication.processEvents()
         self.exporter = pg.exporters.ImageExporter(self.spectra_view.scene())
@@ -93,10 +95,6 @@ class StartWindow(QMainWindow):
         self.spectra_update_timer = QTimer()
         self.spectra_update_timer.timeout.connect(self.update_live_spectra)
 
-        self.label = QtGui.QLabel()
-        self.layout.addWidget(self.label, 2, 1)
-
-
     def update_image(self):
         self.camera.stop()
         frame = self.camera.get_frame()
@@ -105,9 +103,9 @@ class StartWindow(QMainWindow):
     def update_movie(self):
         self.image_view.setImage(self.camera.last_frame)
 
-    def update_single_spectra(self,num_avg,integ_time):
+    def update_single_spectra(self):
         self.spectrometer.stop()
-        single_spectra = self.spectrometer.measure_spectra(num_avg,integ_time)
+        single_spectra = self.spectrometer.measure_spectra(2,'50 ms')
         self.drawplot.setData(single_spectra)
 
     def update_live_spectra(self):
@@ -129,21 +127,7 @@ class StartWindow(QMainWindow):
         self.spectrometer.stopped = False
         self.spectra_thread = SpectraThread(self.spectrometer)
         self.spectra_thread.start()
-        self.spectra_update_timer.start(100)
-
-    # def update_framerate(self):
-    #     now = time.time()
-    #     dt = (now - self.lastupdate)
-    #     if dt <= 0:
-    #         dt = 0.000000000001
-    #     fps2 = 1.0 / dt
-    #     self.lastupdate = now
-    #     self.fps = self.fps * 0.9 + fps2 * 0.1
-    #     tx = 'Mean Frame Rate:  {fps:.3f} FPS'.format(fps=self.fps)
-    #     self.label.setText(tx)
-    #     QTimer.singleShot(1, self.update_spectra)
-    #     self.counter += 1
-
+        self.spectra_update_timer.start(10)
 
 
 class MovieThread(QThread):
@@ -165,7 +149,7 @@ class SpectraThread(QThread):
 
     def run(self):
         while True:
-            if self.camera.stopped:
+            if self.spectrometer.stopped:
                 return
             self.spectrometer.acquire_spectra(1,2,'50 ms')
 
