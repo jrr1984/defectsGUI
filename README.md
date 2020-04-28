@@ -11,4 +11,4 @@ Repositorio de la interfaz gráfica desarrollada con PyQt5 para visualizar simul
 3. [Qthreads de la interfaz gráfica](https://github.com/jrr1984/defectsGUI/blob/master/views.py)
 
 
-[Dependencias del repositorio](https://github.com/jrr1984/open_frame_XYStage/blob/master/dependencias.txt)
+[Dependencias del repositorio](https://github.com/jrr1984/defectsGUI/blob/master/dependencias.txt)
