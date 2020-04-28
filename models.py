@@ -14,9 +14,9 @@ class Camera:
         self.cap = cv2.VideoCapture(self.cam_num)
 
     def get_frame(self):
-        ret, self.last_frame = self.cap.read()
-        self.last_frame = cv2.cvtColor(self.last_frame, cv2.COLOR_BGR2RGB)  # Convert (Blue,Green,Red) to (Red,Green,Blue)
-        self.last_frame = self.last_frame.transpose([1, 0, 2])
+        ret, tmp = self.cap.read()
+        tmp = cv2.cvtColor(tmp, cv2.COLOR_BGR2RGB)  # Convert (Blue,Green,Red) to (Red,Green,Blue)
+        self.last_frame = tmp.transpose([1, 0, 2])
         return self.last_frame
 
     def acquire_movie(self, num_frames):

@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97147e8b-e592-4f02-8573-151555f68739" name="Default Changelist" comment="winter is coming">
+      <change afterPath="$PROJECT_DIR$/.idea/defectsGUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots_aplicacion_microespectrometro/fwhm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots_aplicacion_microespectrometro/plot_espectro_transmision_bandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lextab.py" beforeDir="false" afterPath="$PROJECT_DIR$/lextab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,38 +21,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start.py">
+        <entry file="file://$PROJECT_DIR$/plots_aplicacion_microespectrometro/fwhm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views.py">
+        <entry file="file://$PROJECT_DIR$/plots_aplicacion_microespectrometro/plot_espectro_transmision_bandas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+            <state relative-caret-position="205">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,13 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>update_</find>
-      <find>update_spe</find>
-      <find>spectra_upda</find>
-      <find>start_movie</find>
-      <find>update</find>
-      <find>connect</find>
-      <find>button_movie</find>
       <find>topped</find>
       <find>start</find>
       <find>acquire</find>
@@ -89,6 +77,13 @@
       <find>button_live</find>
       <find>start_live</find>
       <find>range</find>
+      <find>(0)</find>
+      <find>draw</find>
+      <find>Image</find>
+      <find>image</find>
+      <find>image_</find>
+      <find>imagei</find>
+      <find>setim</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,13 +111,16 @@
         <option value="$PROJECT_DIR$/Spectrometer.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/views.py" />
         <option value="$PROJECT_DIR$/Aquilesexample/start.py" />
+        <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/plots_aplicacion_microespectrometro/fwhm.py" />
+        <option value="$PROJECT_DIR$/plots_aplicacion_microespectrometro/plot_espectro_transmision_bandas.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
+    <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -134,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,16 +140,25 @@
               <item name="defectsGUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="defectsGUI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="defectsGUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="defectsGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="plots_aplicacion_microespectrometro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="defectsGUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,7 +173,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.start (1)">
-    <configuration name="Spectrometer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="models (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="defectsGUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,7 +185,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spectrometer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,9 +222,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\juanr\Anaconda3\envs\acqGUI\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
@@ -270,13 +278,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.models (1)" />
+      <item itemvalue="Python.models" />
+      <item itemvalue="Python.start (1)" />
+      <item itemvalue="Python.start" />
+      <item itemvalue="Python.views" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.start (1)" />
+        <item itemvalue="Python.models (1)" />
         <item itemvalue="Python.start" />
         <item itemvalue="Python.models" />
         <item itemvalue="Python.views" />
-        <item itemvalue="Python.Spectrometer" />
       </list>
     </recent_temporary>
   </component>
@@ -314,12 +329,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2660842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20730738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7925532" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39184397" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,16 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lextab.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -423,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="220">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -433,10 +438,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+        <state relative-caret-position="1936">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots_aplicacion_microespectrometro/fwhm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots_aplicacion_microespectrometro/plots.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots_aplicacion_microespectrometro/plot_espectro_transmision_bandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

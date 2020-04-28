@@ -94,6 +94,7 @@ class StartWindow(QMainWindow):
         frame = self.camera.get_frame()
         self.image_view.setImage(frame,autoHistogramRange=True)
 
+
     def update_movie(self):
         self.image_view.setImage(self.camera.last_frame)
 
